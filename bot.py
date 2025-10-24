@@ -755,7 +755,7 @@ async def check_accounts():
     
     async with aiohttp.ClientSession() as session:
         results = []
-        BATCH_SIZE = 100  # Process 100 accounts at a time
+        BATCH_SIZE = 500  # Process 100 accounts at a time
         DELAY_BETWEEN_BATCHES = 5  # Wait 5 seconds between batches
         
         for i in range(0, len(STEAM_ACCOUNTS), BATCH_SIZE):
