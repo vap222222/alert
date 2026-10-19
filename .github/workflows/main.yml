@@ -37,6 +37,7 @@ jobs:
           STEAM_API_KEY_1: ${{ secrets.STEAM_API_KEY_1 }}
           STEAM_API_KEY_2: ${{ secrets.STEAM_API_KEY_2 }}
           STEAM_API_KEY_3: ${{ secrets.STEAM_API_KEY_3 }}
+          STEAM_API_KEY_4: ${{ secrets.STEAM_API_KEY_4 }}
         run: |
           python bot.py
       - name: Save new data
