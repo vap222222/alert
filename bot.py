@@ -18,7 +18,7 @@ KEY_2_LIMIT = 7000
 KEY_3_LIMIT = 10500
 
 # ZARULIOM BOT
-# 1 sh1237 2 u 3 nod 4 ll
+# 1 sh1237 2 u 3 nod 4 dq
 # Steam account IDs to monitor (just the IDs, no names needed)
 STEAM_ACCOUNTS = [
 
